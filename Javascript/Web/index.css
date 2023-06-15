@@ -1,0 +1,19 @@
+.texto-header{
+  color: blue;
+  background-color: aquamarine;
+}
+
+#texto2{
+  color: red;
+}
+
+.borda{
+  border: solid 11px #00b9b4;
+}
+
+.paragrafo{
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Título da Página</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="index.css">
+  <script>
+    //alert('teste!')
+    console.log('Teste javascript no head')
+  </script>
+
+  <script src="index.js"> </script>
+</head>
+
+<body>
+  <img width='150' src="imgs/logo.jpg">
+  <h1>Heading 1</h1>
+  <h2 id="texto2" class="borda Paragrafo">Heading 2</h2>
+  <h3>Heading 3</h3>
+  <h4 style="color: blueviolet;">Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6><br>
+
+  <p class= "paragrafo">Paragrafo 1</p>
+
+
+  <p class="paragrafo" id="paragrafo2">Paragrafo 2</p><br>
+
+  <a href='https://www.igti.com.br'>link IGTI</a>
+  <br><br>
+
+  <input type='text'>
+  <br><br>
+
+  <input type='number'>
+  <br><br>
+
+  <input type='checkbox' id="carro1">
+  <label for="carro1">Uno</label>
+  <input type='checkbox' id="carro2">
+  <label for="carro2">Gol</label>
+  <br><br>
+
+  <input type='radio' id="masculino" value="Masculino" name="sexo">
+  <label for="masculino">Masculino</label>
+  <input type='radio' id="feminino" value="Feminino" name="sexo">
+  <label for="feminino">Feminino</label>
+  <input type='radio' id="outros" value="Outros" name="sexo">
+  <label for="outros">Outros</label>
+
+  <br><br>
+
+  <select>
+    <option value='selecione' selected>Selecione</option>
+    <option value='uno'>Uno</option>
+    <option value='gol'>Gol</option>
+    <option value='palio'>Palio</option>
+    <option value='sandero'>Sandero</option>
+  </select>
+  <br><br>
+
+  <select multiple>
+    <option value='selecione' selected>Selecione</option>
+    <option value='2010'>2010</option>
+    <option value='2011'>2011</option>
+    <option value='2012'>2012</option>
+    <option value='2013'>2013</option>
+  </select>
+  <br><br>
+
+  <textarea rows="5" cols="60" style="align-content:right;">
+      Texto no textarea Texto no textarea Texto no textarea
+      Texto no textarea Texto no textarea Texto no textarea
+    </textarea>
+  <br><br>
+
+  <button type="button" onclick="clickBotao()">clique aqui</button>
+  <button type="button" onclick="clickBotao2()">clique aqui 2</button>
+  <br><br><br>
+
+
+  <img id="lampada" width=100 src="imgs/lampada1.jpg">
+  <br>
+  <button type="button" onclick="ligarLampada()">Ligar Lampada</button>
+  <button type="button" onclick="desligarLampada()">Delisgar Lampada</button>
+  <br><br>
+
+
+  <button type="button" onclick="adicionarElemento()">Adicionar Elemento</button>
+  <button type="button" onclick="removerElemento()">Remover Elemento</button>
+  <br><br>
+  <div id="div-elementos">
+
+  </div> 
+  
+
+
+  <br><br>
+  <script>
+    console.log('Teste javascript no body')
+  </script>
+
+  <script src="index.js"> </script>
+
+
+
+</body>
+
+</html>

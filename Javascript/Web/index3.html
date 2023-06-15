@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <html >
+  <head>
+    <title>Eventos</title>
+    <meta charset="utf-8">
+    <script src="index3.js"></script>
+  </head>
+
+  <body>
+    <h1 id="h1" 
+      onclick = "document.getElementById('h1').innerHTML = 'Obrigado!'">
+      Clique aqui
+    </h1>
+    
+    <h2 id="h2"
+      onmouseover = "document.getElementById('h2').innerHTML = 'Mouse em cima'" 
+      onmouseout = "document.getElementById('h2').innerHTML = 'Mouse fora'" >
+      Texto 2
+    </h2>
+    
+
+    <input type="text" 
+      onkeydown="console.log('onKeyDown')"
+      onkeypress="console.log('onKeyPress')"
+      onkeyup="console.log(this.value)"
+      onchange="InputOnChange(this.value)"
+      onblur="inputOnBlur()"
+
+  </body>
+</html>

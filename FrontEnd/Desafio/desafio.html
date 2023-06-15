@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head lang="pt-BR">
+  <meta charset="utf-8" />
+  <title>Desafio 1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="desafio.js" ></script>
+</head>
+
+<body>
+  <form>
+    <table>
+      <thead>
+        <tr>
+          <td colspan="4">
+            <h3>Simulação de financiamento</h3>
+          </td>
+        </tr>
+        <tr>
+          <th><label for="valor">Valor:</label></th>
+          <th><label for="prazo">Prazo(anos):</label></th>
+          <th><label for="juros">Juros ao ano:</label></th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <input name="valor" id="valor" type="number" value="200.000" />
+          </td>
+          <td><input name="prazo" id="prazo" type="number" value="20" /></td>
+          <td><input name="juros" id="juros" type="number" value="0.08" /></td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="submit" value="Simular" /></td>
+        </tr>
+      </tbody>
+
+      <thead>
+        <tr>
+          <td colspan="4"><h3>Resultado</h3></td>
+        </tr>
+        <tr>
+          <th><label for="prazo_meses">Prazo(meses):</label></th>
+          <th><label for="juros_mes">Juros ao mês:</label></th>
+          <th><label for="juros_acumulado">Juros Acumulado:</label></th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>
+            <input
+              name="prazo_meses"
+              id="prazo_meses"
+              type="number"
+              value="240"
+            />
+          </td>
+          <td>
+            <input
+              name="juros_mes"
+              id="juros_mes"
+              type="number value="
+              0.006434030110003
+            />
+          </td>
+          <td>
+            <input
+              name="juros_acumulado"
+              id="juros_acumulado"
+              type="number"
+              value="0987873.99"
+            />
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+      </tbody>
+
+      <thead>
+        <tr>
+          <td><h4>Prestação</h4></td>
+          <td><h4>Amortização</h4></td>
+          <td><h4>Juros</h4></td>
+          <td><h4>Total</h4></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><label for="prestacao" id="prestacao" value="1" /></td>
+          <td><label for="amortização" id="amortização" value="1" /></td>
+          <td><label for="juros" id="juros" value="1" /></td>
+          <td><label for="total" id="total" value="1" /></td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</body>
